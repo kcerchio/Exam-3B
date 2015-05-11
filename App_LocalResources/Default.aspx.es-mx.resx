@@ -123,6 +123,12 @@
   <data name="Label1.Text" xml:space="preserve">
     <value>Mi nombre es:</value>
   </data>
+  <data name="Label12.Text" xml:space="preserve">
+    <value>buena suerte cuando se gradúe en</value>
+  </data>
+  <data name="Label13.Text" xml:space="preserve">
+    <value>espero que gane</value>
+  </data>
   <data name="Label2.Text" xml:space="preserve">
     <value>Cuando me gradúe Espero ganar:</value>
   </data>
@@ -134,5 +140,14 @@
   </data>
   <data name="Label5.Text" xml:space="preserve">
     <value>Seleccione Idioma</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>¡Hola</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>Sr.</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>Sra.</value>
   </data>
 </root>

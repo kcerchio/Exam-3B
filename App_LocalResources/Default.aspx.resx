@@ -124,10 +124,13 @@
     <value>My Name is:</value>
   </data>
   <data name="Label11.Text" xml:space="preserve">
-    <value>I hope you earn</value>
+    <value />
   </data>
   <data name="Label12.Text" xml:space="preserve">
     <value>good luck when you graduate on</value>
+  </data>
+  <data name="Label13.Text" xml:space="preserve">
+    <value>I hope you earn</value>
   </data>
   <data name="Label2.Text" xml:space="preserve">
     <value>When I graduate I hope to earn:</value>

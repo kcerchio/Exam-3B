@@ -5,6 +5,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+
+<link rel="stylesheet" type="text/css" href="StyleSheet.css" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -75,7 +77,8 @@
             <asp:Label ID="Label9" runat="server" Text="Label" meta:resourceKey="label9"></asp:Label>
             <asp:Label ID="Label12" runat="server" Text="Label" meta:resourceKey="label12"></asp:Label>
             <asp:Label ID="Label10" runat="server" Text="Label" meta:resourceKey="label6"></asp:Label>
-            <asp:Label ID="Label11" runat="server" Text="I Hope you earn" meta:resourceKey="label6"></asp:Label>
+            <asp:Label ID="Label13" runat="server" Text="Label" meta:resourceKey="label13"></asp:Label>
+            <asp:Label ID="Label11" runat="server" Text="Label" meta:resourceKey="label6"></asp:Label>
 
 
 

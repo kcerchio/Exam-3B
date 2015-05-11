@@ -124,10 +124,13 @@
     <value>اسمي هو</value>
   </data>
   <data name="Label11.Text" xml:space="preserve">
-    <value>آمل أن تكسب</value>
+    <value />
   </data>
   <data name="Label12.Text" xml:space="preserve">
-    <value />
+    <value>حظا سعيدا عند التخرج على</value>
+  </data>
+  <data name="Label13.Text" xml:space="preserve">
+    <value>آمل أن تكسب</value>
   </data>
   <data name="Label2.Text" xml:space="preserve">
     <value>عندما أتخرج آمل أن يكسب</value>

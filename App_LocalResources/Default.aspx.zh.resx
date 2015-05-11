@@ -123,6 +123,12 @@
   <data name="Label1.Text" xml:space="preserve">
     <value>我的名字是:</value>
   </data>
+  <data name="Label12.Text" xml:space="preserve">
+    <value>当你毕业的运气好</value>
+  </data>
+  <data name="Label13.Text" xml:space="preserve">
+    <value>我希望你赚</value>
+  </data>
   <data name="Label2.Text" xml:space="preserve">
     <value>当我毕业了，我希望赚:</value>
   </data>
@@ -134,5 +140,14 @@
   </data>
   <data name="Label5.Text" xml:space="preserve">
     <value>请选择语言</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>你好</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>先生</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>夫人</value>
   </data>
 </root>
