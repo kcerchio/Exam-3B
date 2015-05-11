@@ -10,6 +10,7 @@
     <form id="form1" runat="server">
     <div id="header">
         <h1>
+            
         <asp:Label ID="Label3" runat="server" Text="Welcome to Software Design & Development" meta:resourceKey="Label3"></asp:Label>
         </h1>
 
@@ -20,6 +21,7 @@
 
 
     </div>
+       
 
         <asp:Label ID="Label5" runat="server" Text="Please Select Language" meta:resourceKey="Label5"></asp:Label>
         <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="true">
@@ -33,11 +35,17 @@
         <br />
         <br />
 
-
+        <div id="dataContainer" runat="server">
     <div>
     
         <asp:Label ID="Label1" runat="server" Text="My Name is:" meta:resourceKey="Label1"></asp:Label>
         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        <br />
+        <br />
+
+        <asp:CheckBox ID="CheckBox1" runat="server" Text="Male" />
+        <asp:CheckBox ID="CheckBox2" runat="server" Text="Female" />
+
         <br />
         <br />
 
@@ -50,11 +58,29 @@
         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
     
     </div>
+            </div>
         <br />
         <br />
         <p>
             <asp:Button ID="Button1" runat="server" Text="Submit" meta:resourceKey="Button1" />
         </p>
+        <div id="responseContainer" runat="server">
+
+
+
+
+            <asp:Label ID="Label6" runat="server" Text="Hello" meta:resourceKey="label6"></asp:Label>
+            <asp:Label ID="Label7" runat="server" Text="Mr." meta:resourceKey="label7"></asp:Label>
+            <asp:Label ID="Label8" runat="server" Text="Mrs." meta:resourceKey="label8"></asp:Label>
+            <asp:Label ID="Label9" runat="server" Text="Label" meta:resourceKey="label9"></asp:Label>
+            <asp:Label ID="Label12" runat="server" Text="Label" meta:resourceKey="label12"></asp:Label>
+            <asp:Label ID="Label10" runat="server" Text="Label" meta:resourceKey="label6"></asp:Label>
+            <asp:Label ID="Label11" runat="server" Text="I Hope you earn" meta:resourceKey="label6"></asp:Label>
+
+
+
+
+        </div>
     </form>
 </body>
 </html>
