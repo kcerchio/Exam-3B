@@ -5,20 +5,18 @@ Imports System.Globalization
 Partial Class _Default
     Inherits System.Web.UI.Page
 
-    Dim lang As String = Request("Language1")
-
-    If Request.Form("Listbox1") isnot Nothing Or lang <> "" Then
-        Thread.CurrentThread.CurrentUICulture(lang)
-        Thread.CurrentThread.CurrrentCulture = CultureInfo.CreateSpecificCulture(lang) 
-    End IF
+    Protected Overrides Sub InitializeCulture()
+        If Request.Form("DropDownList1") IsNot Nothing Then
+            Dim selectedLanguage As String = _
+                Request.Form("DropDownList1")
+            UICulture = Request.Form("DropDownList1")
+            Culture = Request.Form("DropDownList1")
+            Thread.CurrentThread.CurrentCulture = _
+                CultureInfo.CreateSpecificCulture(selectedLanguage)
+            Thread.CurrentThread.CurrentUICulture = New  _
+                CultureInfo(selectedLanguage)
+        End If
+        MyBase.InitializeCulture()
     End Sub
 
-
-
-
-
-    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
-        Dim money As Decimal = 65545.52
-        Label2.Text = String.Formal("{0:c}", money)
-    End Sub
 End Class

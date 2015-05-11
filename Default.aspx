@@ -23,11 +23,10 @@
 
         <asp:Label ID="Label5" runat="server" Text="Please Select Language" meta:resourceKey="Label5"></asp:Label>
         <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="true">
-            <asp:ListItem Value="auto">Auto</asp:ListItem>
-            <asp:ListItem Value="ar">العربية</asp:ListItem>
-            <asp:ListItem Value="ch">中国</asp:ListItem>
+            <asp:ListItem Value="ar-IQ">العربية</asp:ListItem>
+            <asp:ListItem Value="zh">中国</asp:ListItem>
             <asp:ListItem Value="en-US">English</asp:ListItem>
-            <asp:ListItem Value="es">Español</asp:ListItem>
+            <asp:ListItem Value="es-MX">Español</asp:ListItem>
         </asp:DropDownList>
 
         <br />
